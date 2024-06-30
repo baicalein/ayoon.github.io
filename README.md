@@ -23,16 +23,16 @@
 
 **Clinical Pharmacist @ Quality Specialty Pharmacy (_October 2016 - April 2019_)**
 - Clinical Patient Management: Oncology, Autoimmune inflammatory diseases, Hepatitis C, HIV
-- Pharmacy daily operation
 - Medication Therapy Management (MTM) serveices based on Outcome MTM and Mirixa
 - Medicare Star Rating Management on chronic diseases:  resulted in 40% improvement in pharmacy performance by achieving the goal of 5.00 star in 6months
 
 **Staff Pharmacist @ Macdill Pharmacy (_March 2015 - Januart 2017, Part-time_)**
-- Clinical patient management: Oncology, dermatology
+- Clinical patient management: Oncology, Dermatology
 - Non-sterile compounding of dermatology
-- Consult providers and patients on assisted living facility
+- Consult pharmacotherapy on long term care and assisted living facility
 
 **Staff Pharmacist @ Walgreens (_December 2002 - July 2007_)**
+
 **Pharmacy Intern @ Walgreens (_January 2002 - December 2002_)**
 
 ## Licenses and Certifications
@@ -40,6 +40,7 @@
 - Artificail Intelligence in Medicine Advanced Certicate @ American Board of Artificial Intelligence in Medicine (ABAIM) (_December 2023_)
 - Artificail Intelligence in Medicine Educational Certicate @ ABAIM (_May 2023_)
 **Pharmacy**
+- Registed Pharmacist @ Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisinana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
 - Hematopoietic Cell Transplatation Training Course Certificate @ American Society for Transplantation and Cellular Therapy (ASTCT) (_April 2023_)
 - Precision Medicine Oncology Genomics Certificate @ American College of Clinical Pharmacy (ACCP) (_May 2021 & May 2022_)
 - Oncology Pharmacist Certificate (BCOP) @ Board of Pharmacy Specialties (BPS) (_December 2019_)
