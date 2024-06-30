@@ -39,8 +39,9 @@
 **Data Science**
 - Artificail Intelligence in Medicine Advanced Certicate @ American Board of Artificial Intelligence in Medicine (ABAIM) (_December 2023_)
 - Artificail Intelligence in Medicine Educational Certicate @ ABAIM (_May 2023_)
+  
 **Pharmacy**
-- Registed Pharmacist @ Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisinana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
+- Pharmacist Licenses @ Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisinana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
 - Hematopoietic Cell Transplatation Training Course Certificate @ American Society for Transplantation and Cellular Therapy (ASTCT) (_April 2023_)
 - Precision Medicine Oncology Genomics Certificate @ American College of Clinical Pharmacy (ACCP) (_May 2021 & May 2022_)
 - Oncology Pharmacist Certificate (BCOP) @ Board of Pharmacy Specialties (BPS) (_December 2019_)
