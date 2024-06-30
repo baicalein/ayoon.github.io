@@ -9,7 +9,7 @@
 - Bachelor of Pharmacy | Ewha Women's University, College of Pharmacy (_Seoul, South Korea_)
 
 ## Work Experience
-**Clinical Pharmacist @ Welldyne Specialty Pharmacy (_August 2019 - Present_)**
+**Clinical Pharmacist @ Welldyne Specialty Pharmacy (_July 2019 - Present_)**
 - Clinical Patient management: Oncology, Autoimmune inflammatory diseases, Hepatitis B/C, HIV, Multiple sclerosis
 - Oncology Precision Medicine Program: Oncology genomic test
 - Psoriasis and Rheumatoid Arthritis Precision Medicine Program: MindPx and PrismRA test
@@ -26,7 +26,7 @@
 - Medication Therapy Management (MTM) serveices based on Outcome MTM and Mirixa
 - Medicare Star Rating Management on chronic diseases:  resulted in 40% improvement in pharmacy performance by achieving the goal of 5.00 star in 6months
 
-**Staff Pharmacist @ Macdill Pharmacy (_March 2015 - Januart 2017, Part-time_)**
+**Staff Pharmacist @ Macdill Pharmacy (_March 2014 - October 2016_)**
 - Clinical patient management: Oncology, Dermatology
 - Non-sterile compounding of dermatology
 - Consult pharmacotherapy on long term care and assisted living facility
@@ -35,7 +35,7 @@
 
 **Pharmacy Intern @ Walgreens (_January 2002 - December 2002_)**
 
-## Licenses and Certifications
+## License and Certification
 **Data Science**
 - Artificail Intelligence in Medicine Advanced Certicate @ American Board of Artificial Intelligence in Medicine (ABAIM) (_December 2023_)
 - Artificail Intelligence in Medicine Educational Certicate @ ABAIM (_May 2023_)
@@ -51,10 +51,23 @@
 - Pharmacist Diabetes Care Certificate @ ASHP (_July 2017_)
 - Medication Therapy Management Certificate @ American Pharmacist Association (_May 2017_)
 
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+## Professional Activity
+**Data Science and Application of Articifial Intellegence in Medicine**
+- Medical Intelligence Society (MIS) member:US Data Science Workshops, Monthly meetings, Weekly office hour groups
+- mCODE (Minimal Common Oncology Data Elements) Codex community member: use case projects of mCODE application for third party reimbursement
+- Research Workbench User in All of US Research Program in National Institutes of Health: Association of cancer screening with social determinants of health
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+**Pharmacy**
+- Society of Hematologic Oncology (SOHO) member
+- Florida Society of Clinical Oncology (FLASCO) member
+- Hematology and Oncology Pharmacy Association (HOPA) member
+- National Association of Specialty Pharmacy member
+
+## Project
+### Oncology Precision Medicine
+[Publication](https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/)
+
+Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the m.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
