@@ -70,8 +70,7 @@
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the m.
 
 ### Building a classificaiton model of Rheumatoid Arthritis Patients Reponding to TNF-blocker by maching learning techniques
-
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+Developed objective strategy for discoverin
 
 ## Publication
 1. International Society of Liquid Biopsy Annual Congress 2022 summary, Hematology and Oncology Pharmacy Association (HOPA) https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/
