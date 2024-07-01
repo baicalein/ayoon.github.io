@@ -3,10 +3,10 @@
 #### Technical Skills: Python
 
 ## Education
-- Master of Science Candidate, Data Science | University of Virginia
-- Dcotor of Pharmacy | University of Florida, College of Pharmacy								       		
-- Master of Science, Pharmacy	| Seoul National University, College of Pharmacy	 			        		
-- Bachelor of Pharmacy | Ewha Women's University, College of Pharmacy
+- Master of Science Candidate, Data Science @ University of Virginia
+- Doctor of Pharmacy @ University of Florida, College of Pharmacy								       		
+- Master of Science, Pharmacy	@ Seoul National University, College of Pharmacy	 			        		
+- Bachelor of Pharmacy @ Ewha Women's University, College of Pharmacy
 
 ## Work Experience
 **Clinical Pharmacist @ Welldyne Specialty Pharmacy (_July 2019 - Present_)**
@@ -73,5 +73,5 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 Developed objective strategy for discoverin
 
 ## Publication
-1. International Society of Liquid Biopsy Annual Congress 2022 summary, Hematology and Oncology Pharmacy Association (HOPA) [Link] (https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/)
+1. International Society of Liquid Biopsy Annual Congress 2022 summary, Hematology and Oncology Pharmacy Association (HOPA) [Link](https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/)
 2. Yoon, H.J.; Kim, H.K.; Ma, C.J.; Huh, H. Induced accumulation of triterpenoids in _Scutellaria baicalensis_ suspension cultures using a yeast elicitor. Biotechnology Letters 22:1071-1075, 2000.
