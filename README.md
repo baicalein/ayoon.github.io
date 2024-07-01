@@ -74,4 +74,4 @@ Developed objective strategy for discoverin
 
 ## Publication
 1. International Society of Liquid Biopsy Annual Congress 2022 summary, Hematology and Oncology Pharmacy Association (HOPA) [Link](https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/)
-2. Yoon, H.J.; Kim, H.K.; Ma, C.J.; Huh, H. Induced accumulation of triterpenoids in _Scutellaria baicalensis_ suspension cultures using a yeast elicitor. Biotechnology Letters 22:1071-1075, 2000.
+2. Yoon, H.J.; Kim, H.K.; Ma, C.J.; Huh, H. Induced accumulation of triterpenoids in _Scutellaria baicalensis_ suspension cultures using a yeast elicitor. Biotechnology Letters 22:1071-1075, 2000. [Link](https://link.springer.com/article/10.1023/A:1005610400511)
