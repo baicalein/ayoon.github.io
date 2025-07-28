@@ -1,6 +1,6 @@
 # Oncology Pharmacist, Data Scientist
 
-#### Technical Skills: Python
+#### Technical Skills: Python, R
 
 ## Education
 - Master of Science Candidate, Data Science @ University of Virginia
