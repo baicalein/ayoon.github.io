@@ -11,6 +11,7 @@
 - Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation
 
 <details>
+
 <summary><strong>Education</strong></summary>
 
 - **Master of Science in Data Science**, University of Virginia *(in progress)*
@@ -19,6 +20,7 @@
 - **Bachelor of Pharmacy**, Ewha Women’s University College of Pharmacy, South Korea
 
 </details>
+
 
 
 
