@@ -4,6 +4,7 @@
 - Board Certified Pharmacotherapy Specialist (BCPS)
 - Board Certified Oncology Pharmacist (BCOP)
 - Certified Specialty Pharmacist (CSP; specialty pharmacy practice)
+- Licensed Pharmacist in 16 U.S. states (active, in good standing)
 
 #### Technical Skills
 - Python, R, PyTorch; machine learning & deep learning (model development, tuning, evaluation)
@@ -99,7 +100,7 @@
 - Artificail Intelligence in Medicine Educational Certicate @ ABAIM
 
 **Pharmacy**
-- Pharmacist Licenses @ Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisinana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
+- Pharmacist Licenses @ Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisiana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
 - Hematopoietic Cell Transplatation Training Course Certificate @ American Society for Transplantation and Cellular Therapy (ASTCT)
 - Precision Medicine Oncology Genomics Certificate @ American College of Clinical Pharmacy (ACCP)
 - Oncology Pharmacist Certificate (BCOP) @ Board of Pharmacy Specialties (BPS)
