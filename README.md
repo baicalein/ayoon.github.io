@@ -16,9 +16,7 @@
 - Master of Science in Pharmacy, Seoul National University College of Pharmacy, South Korea
 - Bachelor of Pharmacy, Ewha Women’s University College of Pharmacy, South Korea
 
-
-<details open>
-<summary><strong>Professional Activity</strong></summary>
+## Professional Activity
 
 **Data Science & Applied Artificial Intelligence in Medicine**
 - Applied use of R and Python for statistical analysis, machine learning, deep learning, and large language model development
@@ -30,8 +28,6 @@
 - Florida Society of Clinical Oncology (FLASCO) - member
 - Hematology/Oncology Pharmacy Association (HOPA) - member
 - National Association of Specialty Pharmacy (NASP) - member
-
-</details>
 
 ## Project
 **Machine Learning Predictive Models on Early Discontinuation of Rheumatoid Arthritis Therapy, Adalimumab** (_2023 - Present_)
