@@ -4,6 +4,7 @@
 - Board Certified Pharmacotherapy Specialist (BCPS)
 - Board Certified Oncology Pharmacist (BCOP)
 - Certified Specialty Pharmacist (CSP; specialty pharmacy practice)
+
 #### Technical Skills
 - Python, R, PyTorch; machine learning & deep learning (model development, tuning, evaluation)
 - Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation
@@ -78,10 +79,10 @@
 - Medical specialty program development and operational management
 - Participation in oncology clinical pathway programs to support evidence-based therapy selection
 
-**Staff Compounding & Clinical Pharmacist @ CareMed Rx**  (_2015 – Present, Part-time_)
+**Compounding & Clinical Pharmacist @ CareMed Rx**  (_2015 – Present, Part-time_)
 - Sterile compounding of chemotherapy agents and intravenous antibiotics
 - Clinical consultation for infectious disease pharmacotherapy in home infusion settings
-- Insurance claims review and **prior authorization processing**, including payer communication
+- Insurance claims review and prior authorization processing, including payer communication
 
 **Clinical Pharmacist @ Quality Specialty Pharmacy**  (_2016 – 2019_)
 - Clinical management of patients with oncology, autoimmune inflammatory diseases, hepatitis C, and HIV
