@@ -10,16 +10,13 @@
 - Python, R, PyTorch; machine learning & deep learning (model development, tuning, evaluation)
 - Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation
 
-<details>
+<details open>
 <summary><strong>Education</strong></summary>
 
-**Master of Science in Data Science**, University of Virginia *(in progress)*
-
-**Doctor of Pharmacy (PharmD)**, University of Florida College of Pharmacy
-
-**Master of Science in Pharmacy**, Seoul National University College of Pharmacy, South Korea
-
-**Bachelor of Pharmacy**, Ewha Women’s University College of Pharmacy, South Korea
+- **Master of Science in Data Science**, University of Virginia (in progress)<br>
+- **Doctor of Pharmacy (PharmD)**, University of Florida College of Pharmacy<br>
+- **Master of Science in Pharmacy**, Seoul National University College of Pharmacy, South Korea<br>
+- **Bachelor of Pharmacy**, Ewha Women’s University College of Pharmacy, South Korea<br>
 
 </details>
 
