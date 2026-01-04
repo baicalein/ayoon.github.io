@@ -120,9 +120,7 @@ Planned development of a mobile health application to deliver personalized exerc
 
 <summary><strong>Precision Medicine: Genetic Test(2022-2023)</strong></summary>
 
-- Provided consultative support to healthcare providers and patients in the Oncology Precision Medicine Program, advising on genomic testing (BostonGene) to guide treatment planning in collaboration with Welldyne Specialty Pharmacy
-- Authored a 2022 congress summary for the International Society of Liquid Biopsy, published on the Hematology and Oncology Pharmacy Association (HOPA) website as part of the organization’s meeting resource summaries
-- Supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program, consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes in partnership with Welldyne Specialty Pharmacy
+Provided consultative support to healthcare providers and patients within the Oncology Precision Medicine Program, advising on the use of genomic testing (BostonGene) to inform treatment planning in collaboration with Welldyne Specialty Pharmacy. Authored a 2022 congress summary for the International Society of Liquid Biopsy, published on the Hematology and Oncology Pharmacy Association (HOPA) website as part of the organization’s meeting resource summaries. Also supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program by consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes, in partnership with Welldyne Specialty Pharmacy.
 
 </details>
 
