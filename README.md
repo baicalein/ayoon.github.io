@@ -52,6 +52,7 @@ This prospective study will evaluate the generalizability and real-world perform
 
 </details>
 
+<br>
 
 ### PA LLM: Large Language Model for Prior Authorization Review, Adalimumab for Rheumatoid Arthritis
 Developing a domain-specific Large Language Model (LLM) to support prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA), grounded in FDA-approved indications and payer-specific clinical criteria. The goal of this project is to reduce pharmacist workload in PA review while preserving clinical accuracy, regulatory compliance, and decision transparency.
@@ -74,6 +75,7 @@ The current phase focuses on scaling the prototype into a more realistic and cli
 
 </details>
 
+<br>
 
 ### Melanoma Detection using Knowledge Distillation and Mobile Phone
 
@@ -87,6 +89,8 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 
 [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
 
+<br>
+
 ### Digital Health in Emergency Care: LLMs for Diagnostic Excellence: Capstone Project
 
 <details open>
@@ -97,6 +101,7 @@ Design and evaluation of LLM-based clinical decision support to improve diagnost
 
 </details>
 
+<br>
 
 ### Interdisciplinary Project: Exercise Science–Informed Interventions for Rheumatoid Arthritis
 
@@ -109,6 +114,7 @@ Planned development of a mobile health application to deliver personalized exerc
 
 </details>
 
+<br>
 
 ### Precision Medicine Project
 
@@ -122,6 +128,7 @@ Planned development of a mobile health application to deliver personalized exerc
 
 </details>
 
+<br>
 
 ## Work Experience
 **Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
