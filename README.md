@@ -36,7 +36,7 @@
 
 <summary><strong>Retrospective Observational Study(completed | 2023-2025)</strong></summary>
 
-Accepted for publication in JMCP<br>
+Accepted for publication in JMCP (November, 2025)<br>
 Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions.
 
 </details>
@@ -47,7 +47,7 @@ Early discontinuation of adalimumab remains a challenge among patients with rheu
 
 <summary><strong>Prospective Observational Validation Study(2025 - Present)</strong></summary>
 
-Abstract accepted at AIMed25 (_November 9–12, 2025_)<br>
+Abstract accepted at AIMed25 (November 9–12, 2025)<br>
 This prospective study will evaluate the generalizability and real-world performance of previously developed machine learning models in a new cohort of patients with rheumatoid arthritis initiating adalimumab, with follow-up for at least nine months. Model interpretability will be assessed using SHAP to generate individualized risk explanations, which will be reviewed by clinical pharmacists for usability and clinical relevance. The study will also examine the impact of advanced imputation methods, including MICE and k-nearest neighbors, on model calibration and stability in a prospective setting.
 
 </details>
@@ -88,8 +88,6 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 </details>
 
 [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
-
-<br>
 
 ### Digital Health in Emergency Care: LLMs for Diagnostic Excellence: Capstone Project
 
