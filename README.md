@@ -34,11 +34,10 @@
 
 <details open>
 
-<summary><strong>Retrospective Observational Study(completed)</strong></summary>
+<summary><strong>Retrospective Observational Study(completed | 2023-2025)</strong></summary>
 
 Accepted for publication in JMCP<br>
-Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions.<br>
-[GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
+Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions.
 
 </details>
 
@@ -58,7 +57,7 @@ Developing a domain-specific Large Language Model (LLM) to support prior authori
 
 <details open>
 
-<summary><strong>Prototype(completed)</strong></summary>
+<summary><strong>Prototype(Completed | 2025)</strong></summary>
 
 The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using LoRA for parameter-efficient adaptation, trained on synthetic patient summaries representing common rheumatoid arthritis prior authorization scenarios paired with structured JSON outputs aligned with real specialty pharmacy workflows (diagnosis verification, step therapy assessment, safety screening, dosing confirmation, and decision rationale). A carefully designed instruction–response schema mirrors real PA review processes, and model performance is evaluated using an LLM-as-a-judge framework with GPT-5 as a reference model, alongside external benchmarking on MedMCQA, MMLU, and RACE to assess generalizability beyond the PA task. This prototype demonstrates the feasibility of deploying a small, efficient LLM to support structured clinical decision review in high-stakes administrative healthcare settings.
 
@@ -68,34 +67,60 @@ The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using Lo
 
 <details open>
 
-<summary><strong>Scale-Up Phase (2026 - present)</strong></summary>
+<summary><strong>Scale-Up Phase(2026 - Present)</strong></summary>
 
+The current phase focuses on scaling the prototype into a more realistic and clinically grounded system, moving beyond a proof-of-concept toward evaluation under real-world prior authorization conditions. This includes testing model behavior against imperfect and challenging documentation commonly seen in practice, such as incomplete notes, ambiguous wording, and edge cases. Planned enhancements include expanding synthetic chart notes to better reflect real clinical documentation with varied formats, lengths, and provider writing styles, as well as incorporating multiple experienced pharmacists into the LLM-as-a-judge evaluation process to reduce individual reviewer bias and improve consistency. The project will also explore preference-based alignment methods to better capture true pharmacist reasoning rather than simple rule or policy matching.
 
+</details>
 
-- **Scale-Up Phase** (_In Progress_): The current phase focuses on scaling the prototype toward a more realistic, robust, and clinically grounded system. This scale-up phase aims to move beyond proof-of-concept toward a clinically realistic evaluation setting, where model behavior is stress-tested against nuanced, imperfect, and adversarial documentation scenarios. Planned enhancements include:
-  - Expanded synthetic chart notes that more closely resemble real-world clinical documentation, incorporating: 1. Variable note lengths and formats, 2. Diverse writing styles across providers, 3. Ambiguous, edge-case, and incomplete documentation commonly encountered in PA workflows.
-  - Multi-annotator LLM-as-a-judge optimization, engaging multiple experienced pharmacists with PA and specialty pharmacy backgrounds in RA care to: 1. Provide expert preference judgments, 2. Reduce single-reviewer bias, 3. Improve reliability and consistency of model evaluation
-  - Exploration of advanced preference-based alignment techniques to better reflect pharmacist reasoning rather than surface-level policy matching
+### Melanoma Detection using Knowledge Distillation and Mobile Phone
 
-**Melanoma Detection using Knowledge Distillation and Mobile Phone** [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main) (_2025_)
+<details open>
+
+<summary><strong>Melanoma Detection App (Completed | 2025)</strong></summary>
+
 This project investigates knowledge distillation (KD) as a strategy to enable accurate melanoma detection on resource-constrained mobile and edge devices, where traditional deep convolutional neural networks are impractical due to computational and memory limitations. Using the HAM10000 dermoscopy dataset, we trained a compact MobileNetV3-Small student model (9.1 MB) to learn from larger, high-capacity teacher models (EfficientNet-B1 and ResNet-based architectures). Through systematic exploration of KD design choices—including temperature scaling, distillation loss mixing ratios, pooling strategies, and focal loss for class imbalance—the distilled student model achieved strong diagnostic performance while maintaining efficiency. The best student model reached a ROC-AUC of 0.921 with Expected Calibration Error (ECE) of 0.072, surpassing teacher models in discrimination while retaining excellent calibration. Beyond compression, the results demonstrate that KD acts as an effective regularizer, enabling the student to generalize well despite substantially fewer parameters. The project emphasizes edge-ready deployment, model calibration, and high sensitivity for rare melanoma cases, supporting realistic use in offline, on-device skin cancer screening applications where internet access and compute resources are limited.
-  
-**Digital Health in Emergency Care: LLMs for Diagnostic Excellence** Capstone Project (_In Progress | 2025–2026_)
+
+</details>
+
+[GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
+
+### Digital Health in Emergency Care: LLMs for Diagnostic Excellence: Capstone Project
+
+<details open>
+
+<summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
 
 Design and evaluation of LLM-based clinical decision support to improve diagnostic reasoning, reduce diagnostic error, and enhance quality and safety in emergency care, using ~100,000 de-identified ED clinical notes. Hands-on work with FHIR-based EHR data as part of a UVA Emergency Medicine digital health initiative, supporting interoperable analytics across emergency, urgent care, and ambulatory settings.
 
-**Interdisciplinary Project: Exercise Science–Informed Interventions for Rheumatoid Arthritis** Planned Project (_In Preparation_)
+</details>
+
+
+### Interdisciplinary Project: Exercise Science–Informed Interventions for Rheumatoid Arthritis
+
+<details open>
+
+<summary><strong>Personal Trainer for RA (In Preparation)</strong></summary>
 
 Interdisciplinary project integrating exercise science, clinical pharmacy, and data science, including collaboration with certified personal trainers (ACSM-CPTs) and use of real-world trainer-collected data to inform lifestyle-based interventions for patients with rheumatoid arthritis.
 Planned development of a mobile health application to deliver personalized exercise programs and support PT–trainee communication (one-on-one and group-based), with optional participation of healthcare providers (e.g., clinical pharmacists) for RA patients who consent to referral-based care coordination.
 
-**Precision Medicine Project** (_2022 - 2023_)
+</details>
+
+## Precision Medicine Project
+
+<details open>
+
+<summary><strong>Precision Medicine: Genetic Test(2022-2023)</strong></summary>
+
 - Provided consultative support to healthcare providers and patients in the Oncology Precision Medicine Program, advising on genomic testing (BostonGene) to guide treatment planning in collaboration with Welldyne Specialty Pharmacy
 - Authored a 2022 congress summary for the International Society of Liquid Biopsy, published on the Hematology and Oncology Pharmacy Association (HOPA) website as part of the organization’s meeting resource summaries
 - Supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program, consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes in partnership with Welldyne Specialty Pharmacy
 
+</details>
+
 ## Work Experience
-**Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – , Full-time_)
+**Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
 - Clinical patient management across oncology, autoimmune inflammatory diseases, hepatitis B/C, HIV, and multiple sclerosis
 - Active involvement in URAC and ACHC accreditation preparation, audits, and quality compliance
 - Oncology precision medicine program utilizing BostonGene molecular profiling to support treatment decisions
@@ -103,7 +128,7 @@ Planned development of a mobile health application to deliver personalized exerc
 - Medical specialty program development and operational management
 - Participation in oncology clinical pathway programs to support evidence-based therapy selection
 
-**Staff Pharmacist @ CareMed Rx**  (_2015 – , Part-time_)
+**Staff Pharmacist @ CareMed Rx**  (_2015 – present, part time_)
 - Sterile compounding of chemotherapy agents and intravenous antibiotics
 - Clinical consultation on pharmacotherapy in home infusion and outpatient infusion settings
 
