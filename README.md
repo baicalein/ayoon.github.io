@@ -52,6 +52,7 @@ This prospective study will evaluate the generalizability and real-world perform
 
 </details>
 
+
 ### PA LLM: Large Language Model for Prior Authorization Review, Adalimumab for Rheumatoid Arthritis
 Developing a domain-specific Large Language Model (LLM) to support prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA), grounded in FDA-approved indications and payer-specific clinical criteria. The goal of this project is to reduce pharmacist workload in PA review while preserving clinical accuracy, regulatory compliance, and decision transparency.
 
@@ -72,6 +73,7 @@ The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using Lo
 The current phase focuses on scaling the prototype into a more realistic and clinically grounded system, moving beyond a proof-of-concept toward evaluation under real-world prior authorization conditions. This includes testing model behavior against imperfect and challenging documentation commonly seen in practice, such as incomplete notes, ambiguous wording, and edge cases. Planned enhancements include expanding synthetic chart notes to better reflect real clinical documentation with varied formats, lengths, and provider writing styles, as well as incorporating multiple experienced pharmacists into the LLM-as-a-judge evaluation process to reduce individual reviewer bias and improve consistency. The project will also explore preference-based alignment methods to better capture true pharmacist reasoning rather than simple rule or policy matching.
 
 </details>
+
 
 ### Melanoma Detection using Knowledge Distillation and Mobile Phone
 
@@ -107,7 +109,8 @@ Planned development of a mobile health application to deliver personalized exerc
 
 </details>
 
-## Precision Medicine Project
+
+### Precision Medicine Project
 
 <details open>
 
@@ -118,6 +121,7 @@ Planned development of a mobile health application to deliver personalized exerc
 - Supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program, consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes in partnership with Welldyne Specialty Pharmacy
 
 </details>
+
 
 ## Work Experience
 **Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
