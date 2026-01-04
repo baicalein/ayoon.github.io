@@ -30,31 +30,48 @@
 - National Association of Specialty Pharmacy (NASP) - member
 
 ## Projects
-**Machine Learning Predictive Models on Early Discontinuation of Rheumatoid Arthritis Therapy, Adalimumab** (_2023 - Present_)
+### Machine Learning Predictive Models on Early Discontinuation of Rheumatoid Arthritis Therapy, Adalimumab
 
 <details open>
 
-<summary><strong>Retrospective Observational Study(_2023 - 2025_)</strong></summary>
+<summary><strong>Retrospective Observational Study(completed)</strong></summary>
 
 Accepted for publication in JMCP<br>
-Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions. [GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
+Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions.<br>
+[GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
 
 </details>
 
+[GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
 
-**Retrospective Observational Study** (_2023 - 2025_) Accepted for publication in JMCP
-  Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions. [GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
+<details open>
 
-- **Prospective Observational Validation Study** (_2025 - Present_) Abstract accepted at AIMed25 (_November 9–12, 2025_):
-  This prospective study will evaluate the generalizability and real-world performance of previously developed machine learning models in a new cohort of patients with rheumatoid arthritis initiating adalimumab, with follow-up for at least nine months. Model interpretability will be assessed using SHAP to generate individualized risk explanations, which will be reviewed by clinical pharmacists for usability and clinical relevance. The study will also examine the impact of advanced imputation methods, including MICE and k-nearest neighbors, on model calibration and stability in a prospective setting.
+<summary><strong>Prospective Observational Validation Study(2025 - Present)</strong></summary>
 
-**PA LLM: Large Language Model for Prior Authorization Review, Adalimumab for Rheumatoid Arthritis** (_2025 - Present_) 
-- **Prototype & Ongoing Scale-Up**: Developing a domain-specific Large Language Model (LLM) to support prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA), grounded in FDA-approved indications and payer-specific clinical criteria. The goal of this project is to reduce pharmacist workload in PA review while preserving clinical accuracy, regulatory compliance, and decision transparency.
-- **Prototype** (_Completed_): The model fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using LoRA for parameter-efficient adaptation. Training data consisted of synthetic patient summaries reflecting common RA PA scenarios, paired with structured JSON outputs aligned with real pharmacy workflows (diagnosis verification, step therapy assessment, safety screening, dosing confirmation, decision, and rationale). This prototype demonstrates the feasibility of a small, efficient LLM supporting structured clinical decision review in a high-stakes administrative healthcare setting. Key prototype features include: [HuggingFace Link](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
-  - A carefully designed instruction–response schema mirroring specialty pharmacy PA review processes
-  - Use of synthetic clinical summaries to avoid PHI while encoding domain knowledge
-  - Evaluation via LLM-as-a-judge, using GPT-5 as a reference model
-  - External benchmarking on MedMCQA, MMLU, and RACE to assess generalizability beyond the PA task
+Abstract accepted at AIMed25 (_November 9–12, 2025_)<br>
+This prospective study will evaluate the generalizability and real-world performance of previously developed machine learning models in a new cohort of patients with rheumatoid arthritis initiating adalimumab, with follow-up for at least nine months. Model interpretability will be assessed using SHAP to generate individualized risk explanations, which will be reviewed by clinical pharmacists for usability and clinical relevance. The study will also examine the impact of advanced imputation methods, including MICE and k-nearest neighbors, on model calibration and stability in a prospective setting.
+
+</details>
+
+### PA LLM: Large Language Model for Prior Authorization Review, Adalimumab for Rheumatoid Arthritis
+Developing a domain-specific Large Language Model (LLM) to support prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA), grounded in FDA-approved indications and payer-specific clinical criteria. The goal of this project is to reduce pharmacist workload in PA review while preserving clinical accuracy, regulatory compliance, and decision transparency.
+
+<details open>
+
+<summary><strong>Prototype(completed)</strong></summary>
+
+The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using LoRA for parameter-efficient adaptation, trained on synthetic patient summaries representing common rheumatoid arthritis prior authorization scenarios paired with structured JSON outputs aligned with real specialty pharmacy workflows (diagnosis verification, step therapy assessment, safety screening, dosing confirmation, and decision rationale). A carefully designed instruction–response schema mirrors real PA review processes, and model performance is evaluated using an LLM-as-a-judge framework with GPT-5 as a reference model, alongside external benchmarking on MedMCQA, MMLU, and RACE to assess generalizability beyond the PA task. This prototype demonstrates the feasibility of deploying a small, efficient LLM to support structured clinical decision review in high-stakes administrative healthcare settings.
+
+</details>
+
+[HuggingFace Link](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
+
+<details open>
+
+<summary><strong>Scale-Up Phase (2026 - present)</strong></summary>
+
+
+
 - **Scale-Up Phase** (_In Progress_): The current phase focuses on scaling the prototype toward a more realistic, robust, and clinically grounded system. This scale-up phase aims to move beyond proof-of-concept toward a clinically realistic evaluation setting, where model behavior is stress-tested against nuanced, imperfect, and adversarial documentation scenarios. Planned enhancements include:
   - Expanded synthetic chart notes that more closely resemble real-world clinical documentation, incorporating: 1. Variable note lengths and formats, 2. Diverse writing styles across providers, 3. Ambiguous, edge-case, and incomplete documentation commonly encountered in PA workflows.
   - Multi-annotator LLM-as-a-judge optimization, engaging multiple experienced pharmacists with PA and specialty pharmacy backgrounds in RA care to: 1. Provide expert preference judgments, 2. Reduce single-reviewer bias, 3. Improve reliability and consistency of model evaluation
