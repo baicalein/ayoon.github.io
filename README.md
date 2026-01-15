@@ -89,13 +89,14 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 
 [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
 
-### Digital Health in Emergency Care: LLMs for Diagnostic Excellence: Capstone Project
+### Capstone Project: Digital Health in Emergency Care: Multimodal AI for Clinical Deterioration Detection
 
 <details open>
 
 <summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
 
-Design and evaluation of LLM-based clinical decision support to improve diagnostic reasoning, reduce diagnostic error, and enhance quality and safety in emergency care, using ~100,000 de-identified ED clinical notes. Hands-on work with FHIR-based EHR data as part of a UVA Emergency Medicine digital health initiative, supporting interoperable analytics across emergency, urgent care, and ambulatory settings.
+ER Digital Health: Sponsored by UVA Health Emergency Medicine
+Designing a multimodal early warning system to detect clinical deterioration in under-monitored emergency department patients by integrating high-frequency physiological time-series data (wearable or device-derived) with structured EHR data accessed via FHIR. The project focuses on feature extraction from large-scale signal data (~50–75 GB across up to 500 patients) and risk modeling to support timely clinical escalation and improve patient safety in emergency care settings.
 
 </details>
 
