@@ -71,7 +71,7 @@ The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using Lo
 
 <summary><strong>Scale-Up Phase(2026 - Present)</strong></summary>
 
-This phase focuses on scaling the prototype into a clinically realistic system evaluated under real-world prior authorization conditions, including imperfect and ambiguous documentation. Planned enhancements include expanding synthetic chart notes to better reflect real clinical documentation—such as variable note lengths and formats, diverse provider writing styles, incomplete or conflicting information, and edge-case scenarios commonly encountered in PA workflows. The project will also incorporate multi-pharmacist LLM-as-a-judge evaluation to improve reliability and integrate retrieval-augmented generation (RAG) to dynamically incorporate up-to-date prior authorization criteria and payer policies. Preference-based alignment methods will be explored to better capture pharmacist reasoning beyond surface-level rule matching.
+This phase focuses on scaling the prototype into a clinically realistic system evaluated under real-world prior authorization conditions, including imperfect and ambiguous documentation. Planned enhancements include expanding synthetic chart notes (300 patients) to better reflect real clinical documentation—such as variable note lengths and formats, diverse provider writing styles, incomplete or conflicting information, and edge-case scenarios commonly encountered in PA workflows. The project will also incorporate multi-pharmacist (+5) LLM-as-a-judge evaluation to improve reliability and integrate retrieval-augmented generation (RAG) to dynamically incorporate up-to-date prior authorization criteria and payer policies. Preference-based alignment methods will be explored to better capture pharmacist reasoning beyond surface-level rule matching.
 
 </details>
 
@@ -96,7 +96,7 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 <summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
 
 ER Digital Health: Sponsored by UVA Health Emergency Medicine
-Designing a multimodal early warning system to detect clinical deterioration in under-monitored emergency department patients by integrating high-frequency physiological time-series data (wearable or device-derived) with structured EHR data accessed via FHIR. The project focuses on feature extraction from large-scale signal data (~50–75 GB across up to 500 patients) and risk modeling to support timely clinical escalation and improve patient safety in emergency care settings.
+Designing a multimodal early warning system to detect clinical deterioration in under-monitored emergency department patients by integrating high-frequency physiological time-series data (wearable or device-derived) with structured EHR data accessed via FHIR. The project focuses on feature extraction from large-scale signal data (~50–75 GB across up to 800 patients) and risk modeling to support timely clinical escalation and improve patient safety in emergency care settings.
 
 </details>
 
@@ -108,7 +108,7 @@ Designing a multimodal early warning system to detect clinical deterioration in 
 
 <summary><strong>Personal Trainer for RA (In Preparation)</strong></summary>
 
-Interdisciplinary project integrating exercise science, clinical pharmacy, and data science, including collaboration with certified personal trainers (ACSM-CPTs) and use of real-world trainer-collected data to inform lifestyle-based interventions for patients with rheumatoid arthritis.
+Interdisciplinary project integrating exercise science, clinical pharmacy, and data science, including collaboration with certified personal trainers (ACSM-CPTs) at Tampa Metropolitan YMCA and use of real-world trainer-collected data to inform lifestyle-based interventions for patients with rheumatoid arthritis.
 Planned development of a mobile health application to deliver personalized exercise programs and support PT–trainee communication (one-on-one and group-based), with optional participation of healthcare providers (e.g., clinical pharmacists) for RA patients who consent to referral-based care coordination.
 
 </details>
