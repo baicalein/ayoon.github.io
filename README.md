@@ -89,14 +89,14 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 
 [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
 
-### Capstone Project: Digital Health in Emergency Care: Multimodal AI for Clinical Deterioration Detection
+### Capstone Project: Agentic AI for Emergency Care (SMART-on-FHIR)
 
 <details open>
 
 <summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
 
 ER Digital Health: Sponsored by UVA Health Emergency Medicine
-Designing a multimodal early warning system to detect clinical deterioration in under-monitored emergency department patients by integrating high-frequency physiological time-series data (wearable or device-derived) with structured EHR data accessed via FHIR. The project focuses on feature extraction from large-scale signal data (~50–75 GB across up to 800 patients) and risk modeling to support timely clinical escalation and improve patient safety in emergency care settings.
+Developing a governance-aware, agentic AI framework to build Epic SMART-on-FHIR applications for emergency department workflows. The project uses LangGraph orchestration to translate clinical requirements into secure, auditable SMART apps with least-privilege scopes, sandbox-first validation, and human-in-the-loop approvals.
 
 </details>
 
