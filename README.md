@@ -3,12 +3,24 @@
 #### Clinical Background
 - Board Certified Pharmacotherapy Specialist (BCPS)
 - Board Certified Oncology Pharmacist (BCOP)
-- Certified Specialty Pharmacist (CSP; specialty pharmacy practice)
+- Certified Specialty Pharmacist (CSP specialty pharmacy practice)
 - Licensed Pharmacist in 16 U.S. states (active, in good standing)
 
 #### Technical Skills
-- Python, R, PyTorch; machine learning & deep learning (model development, tuning, evaluation)
-- Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation
+##### Programming & Modeling
+- Python, R, PyTorch  
+- Machine Learning & Deep Learning (model development, tuning, evaluation)
+
+##### LLM & Agentic Systems
+- Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation  
+- Agentic AI development, multi-agent orchestration  
+- LangGraph  
+- Model Context Protocol (MCP)
+
+##### Healthcare Data & Analytics
+- FHIR, SMART-on-FHIR, FAERS  
+- Data preprocessing, feature engineering  
+- Tableau, exploratory data analysis (EDA), dashboard development
 
 ## Education
 - Master of Science in Data Science, University of Virginia (in progress)
@@ -19,7 +31,6 @@
 ## Professional Activity
 
 **Data Science & Applied Artificial Intelligence in Medicine**
-- Applied use of R and Python for statistical analysis, machine learning, deep learning, and large language model development
 - Medical Intelligence Society (MIS) member: participation in U.S. data science workshops, monthly meetings, and weekly office-hour discussion groups
 - mCODE (Minimal Common Oncology Data Elements) Community member: engagement in use-case projects focused on applying mCODE standards to support third-party reimbursement and interoperability
   
@@ -89,14 +100,28 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 
 [GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
 
-### Capstone Project: Agentic AI for Emergency Care (SMART-on-FHIR)
+### Capstone Project: Agentic AI for Emergency Care (SMART-on-FHIR + MCP)
 
 <details open>
 
 <summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
 
-ER Digital Health: Sponsored by UVA Health Emergency Medicine
-Developing a governance-aware, agentic AI framework to build Epic SMART-on-FHIR applications for emergency department workflows. The project uses LangGraph orchestration to translate clinical requirements into secure, auditable SMART apps with least-privilege scopes, sandbox-first validation, and human-in-the-loop approvals.
+Sponsored by UVA Health Emergency Medicine: Designing a governance-aware, multi-agent AI framework to build Epic SMART-on-FHIR applications for emergency department workflows. The system integrates LangGraph orchestration with Model Context Protocol (MCP) to enable structured, tool-governed interaction with FHIR servers. MCP is used to enforce validated tool invocation, scoped data access, and auditable execution paths across agents. Key features include: MCP-based tool layer for secure FHIR resource access (search, read, capabilities), Least-privilege SMART scopes and sandbox-first validation, Validation firewall and human-in-the-loop approval checkpoints, Audit logging of agent and tool activity for governance compliance. This architecture bridges clinical requirements and production-ready SMART apps with traceable, policy-aware AI behavior.
+
+</details>
+
+[GitHub Link](https://github.com/baicalein/Capstone_ER)
+
+
+<br>
+
+### Machine Learning Driven Safety Analysis of ALK Inhibitors in NSCLC (FAERS Data)
+
+<details open>
+
+<summary><strong>Developing a machine learning based comparative safety analysis of five ALK inhibitors (Alecensa, Alunbrig, Lorbrena, Xalkori, Zykadia) using the FDA Adverse Event Reporting System (FAERS) (January 2026 - present)</strong></summary>
+
+This project involves large scale preprocessing of FAERS case level data, including deduplication, drug name normalization, and adverse event encoding, followed by feature engineering from structured report fields such as demographics, event terms, reporting year, and drug role. Apply time-aware modeling to evaluate post-approval adverse event trends and implement supervised machine learning and/or deep learning approaches for safety signal detection and comparative risk profiling across therapies. Model performance is assessed using classification metrics and temporal validation strategies, with an emphasis on building reproducible ML pipelines to identify differential adverse event patterns and analyze evolving safety dynamics following drug approval.
 
 </details>
 
@@ -115,11 +140,12 @@ Planned development of a mobile health application to deliver personalized exerc
 
 <br>
 
+
 ### Precision Medicine Project
 
 <details open>
 
-<summary><strong>Precision Medicine: Genetic Test(2022-2023)</strong></summary>
+<summary><strong>Precision Medicine: Genomic Test(2022-2023)</strong></summary>
 
 Provided consultative support to healthcare providers and patients within the Oncology Precision Medicine Program, advising on the use of genomic testing (BostonGene) to inform treatment planning in collaboration with Welldyne Specialty Pharmacy. Authored a 2022 congress summary for the International Society of Liquid Biopsy, published on the Hematology and Oncology Pharmacy Association (HOPA) website as part of the organization’s meeting resource summaries. Also supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program by consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes, in partnership with Welldyne Specialty Pharmacy.
 
