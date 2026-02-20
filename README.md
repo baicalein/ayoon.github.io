@@ -1,23 +1,23 @@
 # Clinical Specialty Pharmacist
 # Data Scientist
-#### Clinical Background
+## Clinical Background
 - Board Certified Pharmacotherapy Specialist (BCPS)
 - Board Certified Oncology Pharmacist (BCOP)
 - Certified Specialty Pharmacist (CSP specialty pharmacy practice)
 - Licensed Pharmacist in 16 U.S. states (active, in good standing)
 
-#### Technical Skills
-##### Programming & Modeling
+## Technical Skills
+#### Programming & Modeling
 - Python, R, PyTorch  
 - Machine Learning & Deep Learning (model development, tuning, evaluation)
 
-##### LLM & Agentic Systems
+#### LLM & Agentic Systems
 - Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation  
 - Agentic AI development, multi-agent orchestration  
 - LangGraph  
 - Model Context Protocol (MCP)
 
-##### Healthcare Data & Analytics
+#### Healthcare Data & Analytics
 - FHIR, SMART-on-FHIR, FAERS  
 - Data preprocessing, feature engineering  
 - Tableau, exploratory data analysis (EDA), dashboard development
