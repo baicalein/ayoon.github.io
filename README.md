@@ -98,7 +98,7 @@ This project investigates knowledge distillation (KD) as a strategy to enable ac
 
 </details>
 
-[GitHub Link](https://github.com/rah-ds/Deep_Learning_Final_Project/tree/main)
+[GitHub Link](https://github.com/baicalein/Melanoma-Detection-with-Knowledge-Distillation)
 
 ### Capstone Project: Agentic AI for Emergency Care (SMART-on-FHIR + MCP)
 
