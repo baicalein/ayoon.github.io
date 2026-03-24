@@ -86,6 +86,8 @@ This phase focuses on scaling the prototype into a clinically realistic system e
 
 </details>
 
+[GitHub Link](https://github.com/baicalein/pa-ra-benchmark)
+
 <br>
 
 ### Melanoma Detection using Knowledge Distillation and Mobile Phone
@@ -124,6 +126,22 @@ Sponsored by UVA Health Emergency Medicine: Designing a governance-aware, multi-
 This project involves large scale preprocessing of FAERS case level data, including deduplication, drug name normalization, and adverse event encoding, followed by feature engineering from structured report fields such as demographics, event terms, reporting year, and drug role. Apply time-aware modeling to evaluate post-approval adverse event trends and implement supervised machine learning and/or deep learning approaches for safety signal detection and comparative risk profiling across therapies. Model performance is assessed using classification metrics and temporal validation strategies, with an emphasis on building reproducible ML pipelines to identify differential adverse event patterns and analyze evolving safety dynamics following drug approval.
 
 </details>
+
+[GitHub Link](https://github.com/baicalein/faers-alk-safety-ml)
+
+<br>
+
+### Agentic AI Physician Assistant for Lab Result Communication
+
+<details open>
+
+<summary><strong>Developed a governance-aware, agentic AI system to assist physicians in communicating laboratory results. The system combines rule-based clinical logic with LLM-generated messaging to produce safe, patient-friendly drafts for review. (2026 Completed)</strong></summary>
+
+Built a modular workflow including lab abnormality detection, severity scoring, prioritization of findings, context-aware follow-up question generation, and structured message drafting. Implemented a safety review layer to evaluate diagnostic language, medication advice, overconfidence, and inappropriate urgency. Outputs are stored with audit-ready metadata (patient_id, severity, timestamp, review status). Applied strict clinical safety constraints, including no diagnosis or treatment recommendations and severity-controlled tone, with a secondary LLM validation step to ensure safe communication. Evaluated across diverse synthetic cases (metabolic, liver, multi-system abnormalities) to ensure robustness.
+
+</details>
+
+[GitHub Link](https://github.com/baicalein/agentic-ai-lab-results-assistant)
 
 <br>
 
@@ -193,6 +211,6 @@ Provided consultative support to healthcare providers and patients within the On
 
 ## Publication
 1. Yoon, AH., Oelofsen, M., Skomo, D., Page, N. Prospective Validation and Enhancement of a Machine Learning Model for Predicting Early Adalimumab Discontinuation in RA Patients Using Specialty Pharmacy Data. AIMed25 Abstract, November 9-12, 2025. [Link](https://aimed.swoogo.com/AIMed25)
-2. Yoon, AH., Gedeck, P., Oelofsen, M. Predicting Early Discontinuation of Adalimumab in Rheumatoid Arthritis Patients Using Machine Learning: A Specialty Pharmacy-Based Approach. Journal of Managed Care & Specialty Pharmacy, Accepted November 26, 2025, to be published. 
+2. Yoon, AH., Gedeck, P., Oelofsen, M. Predicting Early Discontinuation of Adalimumab in Rheumatoid Arthritis Patients Using Machine Learning: A Specialty Pharmacy-Based Approach. Journal of Managed Care & Specialty Pharmacy 2026;32(3):336-347 [Link](https://doi.org/10.18553/jmcp.2026.32.3.336). 
 3. Yoon, AH. International Society of Liquid Biopsy Annual Congress 2022 summary, Hematology and Oncology Pharmacy Association (HOPA) [Link](https://www.hoparx.org/resources/summaries-of-allied-organization-meetings/international-society-of-liquid-biopsy-annual-congress-2022/)
 4. Yoon, H., Kim, HK., Ma, CJ., Huh, H. Induced accumulation of triterpenoids in _Scutellaria baicalensis_ suspension cultures using a yeast elicitor. Biotechnology Letters 22:1071-1075, 2000. [Link](https://link.springer.com/article/10.1023/A:1005610400511)
