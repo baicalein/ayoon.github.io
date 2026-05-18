@@ -98,21 +98,22 @@ Current and planned evaluation components include:
 - LLM-as-a-judge assessment for rationale quality, faithfulness, and sufficiency
 - Clinical error taxonomy analysis for failure mode characterization
 - Comparative benchmarking across leading proprietary and open-source LLMs
-- Exploration of retrieval-augmented generation (RAG) and preference-alignment strategies
+- Experimental evaluation of parameter-efficient fine-tuning (LoRA) and retrieval-augmented generation (RAG) workflows using Qwen, Gemma, and Llama-based lightweight instruct models
+- Exploration of preference-alignment strategies to better capture pharmacist reasoning patterns
 
 The project emphasizes healthcare AI evaluation, clinical reliability, governance, and decision transparency rather than model fine-tuning alone.
 
-[GitHub: PA-RA-Benchmark](https://github.com/baicalein/pa-ra-benchmark)
-
-[Hugging Face: meta-llama/Llama-3.2-1B-Instruct with chart note summary](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
-
-[Hugging Face: meta-llama/Llama-3.2-3B-Instruct + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/llama-lora-pa-reasoning)
-
-[Hugging Face: google/gemma-4-E4B-it + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/gemma-lora-pa-reasoning)
-
-[Hugging Face: Qwen/Qwen3-4B-Instruct-2507 + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/qwen-lora-pa-reasoning)
-
 </details>
+
+[GitHub: PA-RA Benchmark & Evaluation Framework](https://github.com/baicalein/pa-ra-benchmark)
+
+[Hugging Face: Llama-3.2-1B-Instruct (PA Prototype)](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
+
+[Hugging Face: Llama-3.2-3B-Instruct + LoRA](https://huggingface.co/baicalein/llama-lora-pa-reasoning)
+
+[Hugging Face: Gemma-4-E4B-it + LoRA](https://huggingface.co/baicalein/gemma-lora-pa-reasoning)
+
+[Hugging Face: Qwen3-4B-Instruct + LoRA](https://huggingface.co/baicalein/qwen-lora-pa-reasoning)
 
 ### Governed Agentic AI Framework for Emergency Care (SMART-on-FHIR + MCP)
 <details open> <summary><strong>UVA Health Emergency Medicine Capstone Project (Completed | 2025–2026)</strong></summary>
