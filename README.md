@@ -82,7 +82,7 @@ This project focuses on translating healthcare LLM research into operationally r
 
 </details>
 
-</br>
+<br>
 
 ### Clinical LLM Evaluation Framework for Prior Authorization Reasoning
 <details open> <summary><strong>Benchmark Development & Evaluation Framework (2025 – Present)</strong></summary>
@@ -206,7 +206,7 @@ The proposed system will incorporate trainer-collected real-world data, individu
 
 </details>
 
-</br>
+<br>
 
 ## Precision Medicine & Biomarker Programs
 <details open> <summary><strong>Precision Medicine & Biomarker-Guided Care Programs (2022 – 2023)</strong></summary>
@@ -221,7 +221,7 @@ Additional activities included authorship of a congress summary for the Internat
 
 </details>
 
-</br>
+<br>
 
 ## Work Experience
 **Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
