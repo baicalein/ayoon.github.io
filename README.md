@@ -102,8 +102,6 @@ Current and planned evaluation components include:
 
 The project emphasizes healthcare AI evaluation, clinical reliability, governance, and decision transparency rather than model fine-tuning alone.
 
-</details>
-
 [GitHub: PA-RA-Benchmark](https://github.com/baicalein/pa-ra-benchmark)
 
 [Hugging Face: meta-llama/Llama-3.2-1B-Instruct with chart note summary](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
@@ -113,6 +111,8 @@ The project emphasizes healthcare AI evaluation, clinical reliability, governanc
 [Hugging Face: google/gemma-4-E4B-it + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/gemma-lora-pa-reasoning)
 
 [Hugging Face: Qwen/Qwen3-4B-Instruct-2507 + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/qwen-lora-pa-reasoning)
+
+</details>
 
 ### Governed Agentic AI Framework for Emergency Care (SMART-on-FHIR + MCP)
 <details open> <summary><strong>UVA Health Emergency Medicine Capstone Project (Completed | 2025–2026)</strong></summary>
