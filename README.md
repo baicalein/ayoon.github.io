@@ -13,6 +13,7 @@
 - Predictive Modeling, Model Evaluation
 - Model Interpretability
 - Statistical Analysis
+
 #### Large Language Models & Agentic AI
 - LLM Evaluation & Benchmarking
 - Prompt Engineering
@@ -21,18 +22,21 @@
 - LangGraph
 - Multi-Agent Orchestration
 - Model Context Protocol (MCP)
+
 #### Healthcare AI & Clinical Informatics
 - FHIR, SMART-on-FHIR
 - Clinical Decision Support
 - AI Governance & Validation Workflows
 - Prior Authorization Workflow Modeling
 - FAERS Data Analysis
+
 #### Data Engineering & Analytics
 - Data Preprocessing
 - Feature Engineering
 - Exploratory Data Analysis (EDA)
 - Tableau
 - Dashboard Development
+
 #### Cloud & Deployment (in progress)
 - Microsoft Azure AI Foundry
 - AI Workflow Deployment
@@ -77,6 +81,8 @@ Planned capabilities include:
 This project focuses on translating healthcare LLM research into operationally realistic, governance-aware AI systems suitable for enterprise healthcare environments.
 
 </details>
+
+</br>
 
 ### Clinical LLM Evaluation Framework for Prior Authorization Reasoning
 <details open> <summary><strong>Benchmark Development & Evaluation Framework (2025 – Present)</strong></summary>
@@ -200,6 +206,8 @@ The proposed system will incorporate trainer-collected real-world data, individu
 
 </details>
 
+</br>
+
 ## Precision Medicine & Biomarker Programs
 <details open> <summary><strong>Precision Medicine & Biomarker-Guided Care Programs (2022 – 2023)</strong></summary>
 
@@ -212,6 +220,8 @@ Also supported biomarker-guided therapy optimization programs for rheumatoid art
 Additional activities included authorship of a congress summary for the International Society of Liquid Biopsy, published through the Hematology/Oncology Pharmacy Association meeting resource program.
 
 </details>
+
+</br>
 
 ## Work Experience
 **Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
