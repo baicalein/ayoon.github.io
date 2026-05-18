@@ -1,29 +1,45 @@
-# Clinical Specialty Pharmacist
+# Clinical Pharmacist
 # Data Scientist
 ## Clinical Background
 - Board Certified Pharmacotherapy Specialist (BCPS)
 - Board Certified Oncology Pharmacist (BCOP)
 - Certified Specialty Pharmacist (CSP specialty pharmacy practice)
-- Licensed Pharmacist in 16 U.S. states (active, in good standing)
+- Licensed Pharmacist in 17 U.S. states (active, in good standing)
 
 ## Technical Skills
-#### Programming & Modeling
+#### AI & Machine Learning
 - Python, R, PyTorch  
-- Machine Learning & Deep Learning (model development, tuning, evaluation)
-
-#### LLM & Agentic Systems
-- Large Language Models: domain-specific fine-tuning, instruction design, LoRA, evaluation  
-- Agentic AI development, multi-agent orchestration  
-- LangGraph  
+- Machine Learning & Deep Learning
+- Predictive Modeling, Model Evaluation
+- Model Interpretability
+- Statistical Analysis
+#### Large Language Models & Agentic AI
+- LLM Evaluation & Benchmarking
+- Prompt Engineering
+- Retrieval-Augmented Generation (RAG)
+- LoRA Fine-Tuning
+- LangGraph
+- Multi-Agent Orchestration
 - Model Context Protocol (MCP)
-
-#### Healthcare Data & Analytics
-- FHIR, SMART-on-FHIR, FAERS  
-- Data preprocessing, feature engineering  
-- Tableau, exploratory data analysis (EDA), dashboard development
+#### Healthcare AI & Clinical Informatics
+- FHIR, SMART-on-FHIR
+- Clinical Decision Support
+- AI Governance & Validation Workflows
+- Prior Authorization Workflow Modeling
+- FAERS Data Analysis
+#### Data Engineering & Analytics
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Tableau
+- Dashboard Development
+#### Cloud & Deployment (in progress)
+- Microsoft Azure AI Foundry
+- AI Workflow Deployment
+- Governance-Aware AI Systems
 
 ## Education
-- Master of Science in Data Science, University of Virginia (in progress)
+- Master of Science in Data Science, University of Virginia
 - Doctor of Pharmacy (PharmD), University of Florida College of Pharmacy
 - Master of Science in Pharmacy, Seoul National University College of Pharmacy, South Korea
 - Bachelor of Pharmacy, Ewha Women’s University College of Pharmacy, South Korea
@@ -40,136 +56,162 @@
 - Hematology/Oncology Pharmacy Association (HOPA) - member
 - National Association of Specialty Pharmacy (NASP) - member
 
-## Projects
-### Machine Learning Predictive Models on Early Discontinuation of Rheumatoid Arthritis Therapy, Adalimumab
-
+## Projects & Programs
+## Flagship Projects
+### Governance-Aware Prior Authorization AI Framework (LangGraph + Azure AI Foundry)
 <details open>
 
-<summary><strong>Retrospective Observational Study(completed | 2023-2025)</strong></summary>
+<summary><strong>Enterprise Healthcare AI Governance Framework (2026 – Present)</strong></summary>
+Designing and deploying a governance-aware agentic AI framework for prior authorization (PA) workflows using LangGraph orchestration and Microsoft Azure AI Foundry. The system integrates domain-specific clinical reasoning with deterministic validation layers, audit logging, and human-in-the-loop review to support safe and explainable AI-assisted utilization management.
 
-Accepted for publication in JMCP (November, 2025)<br>
-Early discontinuation of adalimumab remains a challenge among patients with rheumatoid arthritis, yet identifying high-risk patients at treatment initiation is difficult in routine practice. Using real-world data from 300 RA patients, we developed predictive models based on baseline clinical and patient-reported features available at specialty pharmacy service initiation. Among multiple approaches evaluated, elastic net–regularized logistic regression achieved the best performance (ROC-AUC = 0.886; F1 = 0.741), demonstrating that interpretable models can effectively identify patients at risk for early discontinuation and support targeted pharmacist-led interventions.
+The framework is being developed using the highest-performing LLMs identified through an internally developed PA benchmark and evaluation pipeline. Core architecture components include structured workflow orchestration, policy-aware reasoning, validation firewalls, traceable execution paths, and governance checkpoints designed for high-stakes healthcare environments.
+
+Planned capabilities include:
+
+- Dynamic retrieval of payer-specific PA criteria and clinical guidelines
+- Structured decision support for specialty pharmacy and payer workflows
+- Audit-ready logging and traceability for AI-generated outputs
+- Safety-focused validation and escalation layers
+- Deployment-oriented architecture using Azure AI infrastructure
+
+This project focuses on translating healthcare LLM research into operationally realistic, governance-aware AI systems suitable for enterprise healthcare environments.
 
 </details>
 
-[GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
+### Clinical LLM Evaluation Framework for Prior Authorization Reasoning
+<details open> <summary><strong>Benchmark Development & Evaluation Framework (2025 – Present)</strong></summary>
 
-<details open>
+Developing a clinically grounded benchmark and evaluation framework to assess large language model (LLM) performance in prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA). The project focuses on evaluating whether LLMs can safely and reliably support utilization management workflows under realistic clinical documentation conditions.
 
-<summary><strong>Prospective Observational Validation Study(2025 - Present)</strong></summary>
+The benchmark includes synthetic but clinically realistic chart notes designed to reflect variability commonly encountered in specialty pharmacy and payer workflows, including incomplete documentation, conflicting information, diverse provider writing styles, and edge-case scenarios.
 
-Abstract accepted at AIMed25 (November 9–12, 2025)<br>
-This prospective study will evaluate the generalizability and real-world performance of previously developed machine learning models in a new cohort of patients with rheumatoid arthritis initiating adalimumab, with follow-up for at least nine months. Model interpretability will be assessed using SHAP to generate individualized risk explanations, which will be reviewed by clinical pharmacists for usability and clinical relevance. The study will also examine the impact of advanced imputation methods, including MICE and k-nearest neighbors, on model calibration and stability in a prospective setting.
+Current and planned evaluation components include:
 
-</details>
+- Multi-pharmacist adjudication framework for gold-standard labeling
+- Quantitative evaluation using accuracy, F1 score, ROC-AUC, false approval rate, and false denial rate
+- LLM-as-a-judge assessment for rationale quality, faithfulness, and sufficiency
+- Clinical error taxonomy analysis for failure mode characterization
+- Comparative benchmarking across leading proprietary and open-source LLMs
+- Exploration of retrieval-augmented generation (RAG) and preference-alignment strategies
 
-<br>
-
-### PA LLM: Large Language Model for Prior Authorization Review, Adalimumab for Rheumatoid Arthritis
-Developing a domain-specific Large Language Model (LLM) to support prior authorization (PA) review for adalimumab in rheumatoid arthritis (RA), grounded in FDA-approved indications and payer-specific clinical criteria. The goal of this project is to reduce pharmacist workload in PA review while preserving clinical accuracy, regulatory compliance, and decision transparency.
-
-<details open>
-
-<summary><strong>Prototype(Completed | 2025)</strong></summary>
-
-The prototype fine-tunes a lightweight Llama-3.2–1B-Instruct backbone using LoRA for parameter-efficient adaptation, trained on synthetic patient summaries representing common rheumatoid arthritis prior authorization scenarios paired with structured JSON outputs aligned with real specialty pharmacy workflows (diagnosis verification, step therapy assessment, safety screening, dosing confirmation, and decision rationale). A carefully designed instruction–response schema mirrors real PA review processes, and model performance is evaluated using an LLM-as-a-judge framework with GPT-5 as a reference model, alongside external benchmarking on MedMCQA, MMLU, and RACE to assess generalizability beyond the PA task. This prototype demonstrates the feasibility of deploying a small, efficient LLM to support structured clinical decision review in high-stakes administrative healthcare settings.
+The project emphasizes healthcare AI evaluation, clinical reliability, governance, and decision transparency rather than model fine-tuning alone.
 
 </details>
 
-[HuggingFace Link](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
+[GitHub: PA-RA-Benchmark](https://github.com/baicalein/pa-ra-benchmark)
 
-<details open>
+[Hugging Face: meta-llama/Llama-3.2-1B-Instruct with chart note summary](https://huggingface.co/baicalein/paLLM_adalimumab_RA_Lora)
 
-<summary><strong>Scale-Up Phase(2026 - Present)</strong></summary>
+[Hugging Face: meta-llama/Llama-3.2-3B-Instruct + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/llama-lora-pa-reasoning)
 
-This phase focuses on scaling the prototype into a clinically realistic system evaluated under real-world prior authorization conditions, including imperfect and ambiguous documentation. Planned enhancements include expanding synthetic chart notes (300 patients) to better reflect real clinical documentation—such as variable note lengths and formats, diverse provider writing styles, incomplete or conflicting information, and edge-case scenarios commonly encountered in PA workflows. The project will also incorporate multi-pharmacist (+5) LLM-as-a-judge evaluation to improve reliability and integrate retrieval-augmented generation (RAG) to dynamically incorporate up-to-date prior authorization criteria and payer policies. Preference-based alignment methods will be explored to better capture pharmacist reasoning beyond surface-level rule matching.
+[Hugging Face: google/gemma-4-E4B-it + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/gemma-lora-pa-reasoning)
 
-</details>
+[Hugging Face: Qwen/Qwen3-4B-Instruct-2507 + LoRA with PA-RA-Benchmark](https://huggingface.co/baicalein/qwen-lora-pa-reasoning)
 
-[GitHub Link](https://github.com/baicalein/pa-ra-benchmark)
+### Governed Agentic AI Framework for Emergency Care (SMART-on-FHIR + MCP)
+<details open> <summary><strong>UVA Health Emergency Medicine Capstone Project (Completed | 2025–2026)</strong></summary>
 
-<br>
+Sponsored by UVA Health Emergency Medicine. Designed a governance-aware agentic AI framework to support emergency department workflows using LangGraph orchestration, SMART-on-FHIR interoperability, and Model Context Protocol (MCP)-based tool governance.
 
-### Melanoma Detection using Knowledge Distillation and Mobile Phone
+The system enables structured and auditable interaction with FHIR servers while enforcing deterministic validation and scoped data access policies. The architecture combines LLM-based requirement extraction with rule-based validation layers to support safe and policy-aware clinical workflow automation.
 
-<details open>
+Core system components include:
 
-<summary><strong>Melanoma Detection App (Completed | 2025)</strong></summary>
+- LangGraph-based deterministic orchestration workflows
+- MCP-governed FHIR tool access (search, read, capabilities)
+- Validation firewall for policy enforcement and input sanitation
+- Audit-ready trace logging across workflow execution
+- SMART-on-FHIR integration using least-privilege access principles
 
-This project investigates knowledge distillation (KD) as a strategy to enable accurate melanoma detection on resource-constrained mobile and edge devices, where traditional deep convolutional neural networks are impractical due to computational and memory limitations. Using the HAM10000 dermoscopy dataset, we trained a compact MobileNetV3-Small student model (9.1 MB) to learn from larger, high-capacity teacher models (EfficientNet-B1 and ResNet-based architectures). Through systematic exploration of KD design choices—including temperature scaling, distillation loss mixing ratios, pooling strategies, and focal loss for class imbalance—the distilled student model achieved strong diagnostic performance while maintaining efficiency. The best student model reached a ROC-AUC of 0.921 with Expected Calibration Error (ECE) of 0.072, surpassing teacher models in discrimination while retaining excellent calibration. Beyond compression, the results demonstrate that KD acts as an effective regularizer, enabling the student to generalize well despite substantially fewer parameters. The project emphasizes edge-ready deployment, model calibration, and high sensitivity for rare melanoma cases, supporting realistic use in offline, on-device skin cancer screening applications where internet access and compute resources are limited.
+Implemented use case:
 
-</details>
+Emergency department patient snapshot generation (medications, allergies, recent encounters)
 
-[GitHub Link](https://github.com/baicalein/Melanoma-Detection-with-Knowledge-Distillation)
-
-### Capstone Project: Agentic AI for Emergency Care (SMART-on-FHIR + MCP)
-
-<details open>
-
-<summary><strong>ER Digital Health (In progress | 2025-2026)</strong></summary>
-
-Sponsored by UVA Health Emergency Medicine: Designing a governance-aware, multi-agent AI framework to build Epic SMART-on-FHIR applications for emergency department workflows. The system integrates LangGraph orchestration with Model Context Protocol (MCP) to enable structured, tool-governed interaction with FHIR servers. MCP is used to enforce validated tool invocation, scoped data access, and auditable execution paths across agents. Key features include: MCP-based tool layer for secure FHIR resource access (search, read, capabilities), Least-privilege SMART scopes and sandbox-first validation, Validation firewall and human-in-the-loop approval checkpoints, Audit logging of agent and tool activity for governance compliance. This architecture bridges clinical requirements and production-ready SMART apps with traceable, policy-aware AI behavior.
+Awarded “Most Innovative Analytic Solution” during the UVA MSDS Capstone Showcase.
 
 </details>
 
 [GitHub Link](https://github.com/baicalein/Capstone_ER)
 
+### Machine Learning Predictive Models for Early Adalimumab Discontinuation in Rheumatoid Arthritis
+<details open> <summary><strong>Healthcare Predictive Analytics Research (Completed | 2023 – 2025)</strong></summary>
 
-<br>
+Developed machine learning models to predict early discontinuation of adalimumab therapy among patients with rheumatoid arthritis using real-world specialty pharmacy data.
 
-### Machine Learning Driven Safety Analysis of ALK Inhibitors in NSCLC (FAERS Data)
+Using baseline clinical and patient-reported variables available at treatment initiation, multiple predictive approaches were evaluated to identify patients at elevated risk for early therapy discontinuation. Elastic net–regularized logistic regression demonstrated the strongest overall performance while maintaining interpretability appropriate for clinical decision support applications.
 
-<details open>
+Key project components included:
 
-<summary><strong>Developing a machine learning based comparative safety analysis of five ALK inhibitors (Alecensa, Alunbrig, Lorbrena, Xalkori, Zykadia) using the FDA Adverse Event Reporting System (FAERS) (January 2026 - present)</strong></summary>
+- Predictive modeling using real-world specialty pharmacy datasets
+- Feature engineering and preprocessing of longitudinal patient data
+- Model evaluation using ROC-AUC, F1 score, calibration, and interpretability analysis
+- Comparative evaluation of multiple machine learning approaches for healthcare prediction tasks
 
-This project involves large scale preprocessing of FAERS case level data, including deduplication, drug name normalization, and adverse event encoding, followed by feature engineering from structured report fields such as demographics, event terms, reporting year, and drug role. Apply time-aware modeling to evaluate post-approval adverse event trends and implement supervised machine learning and/or deep learning approaches for safety signal detection and comparative risk profiling across therapies. Model performance is assessed using classification metrics and temporal validation strategies, with an emphasis on building reproducible ML pipelines to identify differential adverse event patterns and analyze evolving safety dynamics following drug approval.
+The study demonstrated that interpretable machine learning models can effectively identify patients at risk for early biologic therapy discontinuation and may support targeted pharmacist-led interventions in specialty pharmacy practice.
+
+Results from this project were published in the Journal of Managed Care & Specialty Pharmacy (JMCP).
 
 </details>
 
-[GitHub Link](https://github.com/baicalein/faers-alk-safety-ml)
+[GitHub Link](https://github.com/baicalein/ML-Predictive-Models-on-Early-Discontinuation-of-Adalimumab-in-RA)
 
-<br>
+## Additional Projects
+### Agentic AI Assistant for Laboratory Result Communication
+<details> <summary><strong>Governance-Aware Clinical Communication Workflow (2026)</strong></summary>
 
-### Agentic AI Physician Assistant for Lab Result Communication
+Developed a governance-aware agentic AI system to assist physicians in communicating laboratory results using structured clinical logic and LLM-generated patient messaging.
 
-<details open>
+Implemented modular workflows for abnormality detection, severity scoring, follow-up question generation, message drafting, and safety review validation. Applied strict safeguards to prevent diagnostic overreach, inappropriate medication advice, and unsafe communication patterns.
 
-<summary><strong>Developed a governance-aware, agentic AI system to assist physicians in communicating laboratory results. The system combines rule-based clinical logic with LLM-generated messaging to produce safe, patient-friendly drafts for review. (2026 Completed)</strong></summary>
-
-Built a modular workflow including lab abnormality detection, severity scoring, prioritization of findings, context-aware follow-up question generation, and structured message drafting. Implemented a safety review layer to evaluate diagnostic language, medication advice, overconfidence, and inappropriate urgency. Outputs are stored with audit-ready metadata (patient_id, severity, timestamp, review status). Applied strict clinical safety constraints, including no diagnosis or treatment recommendations and severity-controlled tone, with a secondary LLM validation step to ensure safe communication. Evaluated across diverse synthetic cases (metabolic, liver, multi-system abnormalities) to ensure robustness.
+The project emphasizes clinical safety, auditability, and controlled AI-assisted patient communication.
 
 </details>
 
 [GitHub Link](https://github.com/baicalein/agentic-ai-lab-results-assistant)
 
-<br>
+### Machine Learning–Driven Comparative Safety Analysis of ALK Inhibitors Using FAERS Data
+<details> <summary><strong>Pharmacovigilance & Safety Signal Detection (2026)</strong></summary>
 
-### Interdisciplinary Project: Exercise Science–Informed Interventions for Rheumatoid Arthritis
+Developing machine learning pipelines for comparative safety analysis of ALK inhibitors in non-small cell lung cancer (NSCLC) using FDA Adverse Event Reporting System (FAERS) data.
 
-<details open>
-
-<summary><strong>Personal Trainer for RA (In Preparation)</strong></summary>
-
-Interdisciplinary project integrating exercise science, clinical pharmacy, and data science, including collaboration with certified personal trainers (ACSM-CPTs) at Tampa Metropolitan YMCA and use of real-world trainer-collected data to inform lifestyle-based interventions for patients with rheumatoid arthritis.
-Planned development of a mobile health application to deliver personalized exercise programs and support PT–trainee communication (one-on-one and group-based), with optional participation of healthcare providers (e.g., clinical pharmacists) for RA patients who consent to referral-based care coordination.
+The project includes large-scale preprocessing, adverse event normalization, feature engineering, temporal trend analysis, and supervised learning approaches for safety signal detection and comparative risk profiling.
 
 </details>
 
-<br>
+[GitHub Link](https://github.com/baicalein/faers-alk-safety-ml)
 
+### Melanoma Detection Using Knowledge Distillation for Mobile Deployment
+<details> <summary><strong>Edge AI & Mobile Health Application Research (2025)</strong></summary>
 
-### Precision Medicine Project
+Investigated knowledge distillation techniques to enable efficient melanoma detection on resource-constrained mobile devices using the HAM10000 dermoscopy dataset.
 
-<details open>
-
-<summary><strong>Precision Medicine: Genomic Test(2022-2023)</strong></summary>
-
-Provided consultative support to healthcare providers and patients within the Oncology Precision Medicine Program, advising on the use of genomic testing (BostonGene) to inform treatment planning in collaboration with Welldyne Specialty Pharmacy. Authored a 2022 congress summary for the International Society of Liquid Biopsy, published on the Hematology and Oncology Pharmacy Association (HOPA) website as part of the organization’s meeting resource summaries. Also supported the Psoriasis and Rheumatoid Arthritis Precision Medicine Program by consulting on the use of MindPx and PrismRA diagnostic tests to optimize biologic selection and improve patient outcomes, in partnership with Welldyne Specialty Pharmacy.
+Developed compact MobileNetV3-based student models trained from larger teacher architectures while preserving diagnostic performance and calibration quality suitable for edge deployment scenarios.
 
 </details>
 
-<br>
+[GitHub Link](https://github.com/baicalein/Melanoma-Detection-with-Knowledge-Distillation)
+
+### Interdisciplinary Lifestyle Intervention Platform for Rheumatoid Arthritis
+<details> <summary><strong>Exercise Science + Clinical Pharmacy + Data Science Collaboration (Planned)</strong></summary>
+
+Planned interdisciplinary project integrating exercise science, clinical pharmacy, and data science to support personalized lifestyle interventions for patients with rheumatoid arthritis.
+
+The proposed system will incorporate trainer-collected real-world data, individualized exercise programming, and mobile health communication workflows to support long-term patient engagement and care coordination.
+
+</details>
+
+## Precision Medicine & Biomarker Programs
+<details open> <summary><strong>Precision Medicine & Biomarker-Guided Care Programs (2022 – 2023)</strong></summary>
+
+Supported oncology and autoimmune precision medicine initiatives within specialty pharmacy practice through collaboration with healthcare providers, patients, and diagnostic testing programs.
+
+Contributed to oncology precision medicine workflows involving genomic profiling and liquid biopsy applications, including consultation support related to the use of BostonGene molecular testing to inform individualized treatment planning in collaboration with Welldyne Specialty Pharmacy.
+
+Also supported biomarker-guided therapy optimization programs for rheumatoid arthritis and psoriasis using diagnostic platforms including MindPx and PrismRA to assist biologic selection and treatment decision support.
+
+Additional activities included authorship of a congress summary for the International Society of Liquid Biopsy, published through the Hematology/Oncology Pharmacy Association meeting resource program.
+
+</details>
 
 ## Work Experience
 **Clinical Pharmacist @ Healthdyne Specialty Pharmacy (formerly Welldyne Specialty Pharmacy)**  (_2019 – present, full time_)
@@ -180,11 +222,11 @@ Provided consultative support to healthcare providers and patients within the On
 - Medical specialty program development and operational management
 - Participation in oncology clinical pathway programs to support evidence-based therapy selection
 
-**Staff Pharmacist @ CareMed Rx**  (_2015 – present, part time_)
+**Staff Pharmacist @ CareMed Rx**  (_2015 – 2019, part time_)
 - Sterile compounding of chemotherapy agents and intravenous antibiotics
 - Clinical consultation on pharmacotherapy in home infusion and outpatient infusion settings
 
-**Clinical Pharmacist @ Quality Specialty Pharmacy**  (_2016 – 2019_)
+**Clinical Pharmacist @ Quality Specialty Pharmacy**  (_2016 – 2019, full time_)
 - Clinical management of patients with oncology, autoimmune inflammatory diseases, hepatitis C, and HIV
 - Delivery of Medication Therapy Management (MTM) services through OutcomeMTM and Mirixa platforms
 - Support of Medicare Star Rating performance initiatives for chronic disease management
@@ -193,13 +235,17 @@ Provided consultative support to healthcare providers and patients within the On
 - Clinical patient management in oncology and dermatology
 - Pharmacotherapy consultation for long-term care and assisted living facilities
 
+**Staff Pharmacist @ Walgreens Pharmacy**  (_2002 – 2007, full time_)
+
+**Pharmacist Intern @ Walgreens Pharmacy**  (_2002 – 2002_)
+
 ## License and Certification
 **Data Science & Artificial Intelligence**
 - Artificial Intelligence in Medicine – Advanced Certificate, American Board of Artificial Intelligence in Medicine (ABAIM)
 - Artificial Intelligence in Medicine – Educational Certificate, American Board of Artificial Intelligence in Medicine (ABAIM)
 
 **Pharmacy & Clinical Practice**
-- Pharmacist Licensure: Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisiana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
+- Pharmacist Licensure: Alabama, Arkansas, Florida, Indiana, Kansas, Kentucky, Louisiana, Maryland, Michigan, Mississippi, Nebraska, Oklahoma, Oregon, Tennessee, Texas, Virginia, West Virginia (Active, in good standing)
 - Hematopoietic Cell Transplantation Training Certificate, American Society for Transplantation and Cellular Therapy (ASTCT)
 - Precision Medicine in Oncology Genomics Certificate, American College of Clinical Pharmacy (ACCP)
 - Board Certified Oncology Pharmacist (BCOP), Board of Pharmacy Specialties (BPS)
